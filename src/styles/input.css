@@ -1,0 +1,21 @@
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.6rem;
+}
+
+.input-group__item {
+  margin-bottom: 1.2rem;
+}
+
+.text-input {
+  border: 1px solid #cacccd;
+
+  font-size: 1rem;
+  font-weight: 200;
+  padding: 0.8rem;
+  width: 100%;
+}
+
+
+
