@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite id="0" name="/Volumes/T7 Touch/Developer_Glympe/Job Tests/sales-force-test/src/App.test.js" errors="0" package="/Volumes/T7 Touch/Developer_Glympe/Job Tests/sales-force-test/src/App.test.js" hostname="localhost" tests="15" failures="4" time="1.004" timestamp="2020-05-05T08:14:55">
+    <properties>
+    </properties>
+    <testcase classname="renders without crashing" name="renders without crashing" time="0">
+    </testcase>
+    <testcase classname="should show no results message" name="should show no results message" time="0">
+    </testcase>
+    <testcase classname="adding a new row" name="should add a row with valid data" time="0">
+      <failure message="Error: expect(received).toEqual(expected)
+
+Expected value to equal:
+  3
+Received:
+  2
+    at Object.toEqual (/Volumes/T7 Touch/Developer_Glympe/Job Tests/sales-force-test/src/App.test.js:82:35)
+    at Object.asyncJestTest (/Volumes/T7 Touch/Developer_Glympe/Job Tests/sales-force-test/node_modules/jest-jasmine2/build/jasmine_async.js:108:37)
+    at /Volumes/T7 Touch/Developer_Glympe/Job Tests/sales-force-test/node_modules/jest-jasmine2/build/queue_runner.js:56:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Volumes/T7 Touch/Developer_Glympe/Job Tests/sales-force-test/node_modules/jest-jasmine2/build/queue_runner.js:43:19)
+    at /Volumes/T7 Touch/Developer_Glympe/Job Tests/sales-force-test/node_modules/jest-jasmine2/build/queue_runner.js:87:41
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="adding a new row" name="should not add the row if ratings is empty" time="0">
+    </testcase>
+    <testcase classname="adding a new row" name="should not add the row if name is empty" time="0">
+    </testcase>
+    <testcase classname="adding a new row" name="should not add the row if duration is empty" time="0">
+    </testcase>
+    <testcase classname="adding a new row" name="should not add the row if data invalid" time="0">
+    </testcase>
+    <testcase classname="adding multiple rows" name="should have added 5 rows" time="0">
+    </testcase>
+    <testcase classname="adding multiple rows" name="should show the table in sorted order" time="0">
+    </testcase>
+    <testcase classname="adding multiple rows" name="should not show the no result message" time="0">
+    </testcase>
+    <testcase classname="filtering results" name="should not filter before 2 keys" time="0">
+    </testcase>
+    <testcase classname="filtering results" name="should filter results" time="0">
+      <failure message="Error: expect(received).toEqual(expected)
+
+Expected value to equal:
+  1
+Received:
+  0
+    at Object.toEqual (/Volumes/T7 Touch/Developer_Glympe/Job Tests/sales-force-test/src/App.test.js:220:31)
+    at Object.asyncJestTest (/Volumes/T7 Touch/Developer_Glympe/Job Tests/sales-force-test/node_modules/jest-jasmine2/build/jasmine_async.js:108:37)
+    at /Volumes/T7 Touch/Developer_Glympe/Job Tests/sales-force-test/node_modules/jest-jasmine2/build/queue_runner.js:56:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Volumes/T7 Touch/Developer_Glympe/Job Tests/sales-force-test/node_modules/jest-jasmine2/build/queue_runner.js:43:19)
+    at /Volumes/T7 Touch/Developer_Glympe/Job Tests/sales-force-test/node_modules/jest-jasmine2/build/queue_runner.js:87:41
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="filtering results" name="should show new entries when added which pass the filter" time="0">
+      <failure message="Error: expect(received).toEqual(expected)
+
+Expected value to equal:
+  2
+Received:
+  1
+    at Object.toEqual (/Volumes/T7 Touch/Developer_Glympe/Job Tests/sales-force-test/src/App.test.js:240:31)
+    at Object.asyncJestTest (/Volumes/T7 Touch/Developer_Glympe/Job Tests/sales-force-test/node_modules/jest-jasmine2/build/jasmine_async.js:108:37)
+    at /Volumes/T7 Touch/Developer_Glympe/Job Tests/sales-force-test/node_modules/jest-jasmine2/build/queue_runner.js:56:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Volumes/T7 Touch/Developer_Glympe/Job Tests/sales-force-test/node_modules/jest-jasmine2/build/queue_runner.js:43:19)
+    at /Volumes/T7 Touch/Developer_Glympe/Job Tests/sales-force-test/node_modules/jest-jasmine2/build/queue_runner.js:87:41
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="filtering results" name="should show no results message when filtered result empty" time="0">
+    </testcase>
+    <testcase classname="adding multiple rows" name="should update an existing record based the movie name" time="0">
+      <failure message="Error: expect(received).toEqual(expected)
+
+Expected value to equal:
+  7
+Received:
+  2
+    at Object.toEqual (/Volumes/T7 Touch/Developer_Glympe/Job Tests/sales-force-test/src/App.test.js:278:35)
+    at Object.asyncJestTest (/Volumes/T7 Touch/Developer_Glympe/Job Tests/sales-force-test/node_modules/jest-jasmine2/build/jasmine_async.js:108:37)
+    at /Volumes/T7 Touch/Developer_Glympe/Job Tests/sales-force-test/node_modules/jest-jasmine2/build/queue_runner.js:56:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Volumes/T7 Touch/Developer_Glympe/Job Tests/sales-force-test/node_modules/jest-jasmine2/build/queue_runner.js:43:19)
+    at /Volumes/T7 Touch/Developer_Glympe/Job Tests/sales-force-test/node_modules/jest-jasmine2/build/queue_runner.js:87:41
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)" type="AssertionError">
+      </failure>
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+</testsuites>

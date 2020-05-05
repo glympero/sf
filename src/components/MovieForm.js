@@ -75,7 +75,7 @@ class MovieForm extends React.Component {
       <form className='form' onSubmit={this.onSubmit}>
         { !!this.state.error && <p className='form__error'>{this.state.error}</p>}
         <input id="name-input" className='text-input' type='text' value={this.state.name} onChange={this.onNameChange} placeholder='Movie Name' autoFocus/>
-        <input id="rating-input" className='text-input' type='text' value={this.state.rating} onChange={this.onRatingChange} placeholder='Rating' />
+        <input id="ratings-input" className='text-input' type='text' value={this.state.rating} onChange={this.onRatingChange} placeholder='Rating' />
         <input id="duration-input" className='text-input' type='text' value={this.state.duration} onChange={this.onDurationChange} placeholder='Duration' />
         <div>
           <button id="submit-button" className='button'

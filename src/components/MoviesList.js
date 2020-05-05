@@ -8,7 +8,7 @@ import selectMovies from '../selectors/movies';
 export const ExpenseList = (props) => {
   return (
     <div className='content-container'>
-      <table>
+      <table id="directory-table">
         <thead>
           <tr>
             <th>Movie Name</th>
